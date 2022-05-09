@@ -17,9 +17,9 @@ import tech.portfolio.portfolio.service.PersonService;
 @RestController
 @RequestMapping("/person")
 public class PersonResouce {
-    
+
     private final PersonService personService;
-    
+
     public PersonResouce(PersonService personService) {
         this.personService = personService;
     }
