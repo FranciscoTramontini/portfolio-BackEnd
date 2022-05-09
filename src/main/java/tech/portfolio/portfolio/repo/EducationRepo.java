@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package tech.portfolio.portfolio.repo;
 
-/**
- *
- * @author Francisco
- */
-public interface EducationRepo {
-    
+import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
+import tech.portfolio.portfolio.model.Education;
+
+public interface EducationRepo extends JpaRepository<Education, Long> {
+
+    void deleteEducationById(Long id);
+
+    Optional<Education> findEducationById(Long id);
 }
