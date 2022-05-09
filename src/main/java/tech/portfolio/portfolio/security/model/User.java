@@ -1,12 +1,13 @@
 package tech.portfolio.portfolio.security.model;
 
 import com.sun.istack.NotNull;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.*;
 
 @Entity
-public class User {
+public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,8 +32,7 @@ public class User {
     public User() {
     }
 
-    public User(Long id, String name, String nameUser, String password) {
-        this.id = id;
+    public User(String name, String nameUser, String password) {
         this.name = name;
         this.nameUser = nameUser;
         this.password = password;

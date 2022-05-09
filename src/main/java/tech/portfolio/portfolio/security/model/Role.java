@@ -2,10 +2,11 @@ package tech.portfolio.portfolio.security.model;
 
 import tech.portfolio.portfolio.security.enums.RoleName;
 import com.sun.istack.NotNull;
+import java.io.Serializable;
 import javax.persistence.*;
 
 @Entity
-public class Role {
+public class Role implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
