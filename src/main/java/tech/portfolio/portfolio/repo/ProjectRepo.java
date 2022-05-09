@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package tech.portfolio.portfolio.repo;
 
-/**
- *
- * @author Francisco
- */
-public interface ProjectRepo {
-    
+import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
+import tech.portfolio.portfolio.model.Project;
+
+public interface ProjectRepo extends JpaRepository<Project, Long> {
+
+    void deleteProjectById(Long id);
+
+    Optional<Project> findProjectById(Long id);
 }
