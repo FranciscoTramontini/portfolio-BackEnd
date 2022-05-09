@@ -1,13 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package tech.portfolio.portfolio.security.repo;
 
-/**
- *
- * @author Francisco
- */
-public interface RoleRepository {
-    
+import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
+import tech.portfolio.portfolio.security.enums.RoleName;
+import tech.portfolio.portfolio.security.model.Role;
+
+public interface RoleRepository extends JpaRepository<Role, Integer> {
+
+    Optional<Role> findByRoleName(RoleName roleName);
 }
