@@ -6,7 +6,7 @@ import tech.portfolio.portfolio.model.Person;
 
 public interface PersonRepo extends JpaRepository<Person, Long> {
 
-    void deleteUserById(Long id);
+    void deletePersonById(Long id);
 
-    Optional<Person> findUserById(Long id);
+    Optional<Person> findPersonById(Long id);
 }
