@@ -4,6 +4,7 @@ import tech.portfolio.portfolio.security.enums.RoleName;
 import com.sun.istack.NotNull;
 import javax.persistence.*;
 
+@Entity
 public class Role {
 
     @Id
