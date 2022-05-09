@@ -32,6 +32,7 @@ import tech.portfolio.portfolio.security.service.UserService;
 @RequestMapping("/auth")
 @CrossOrigin(origins = "*")
 public class AuthController {
+
     @Autowired
     PasswordEncoder passwordEncoder;
 
