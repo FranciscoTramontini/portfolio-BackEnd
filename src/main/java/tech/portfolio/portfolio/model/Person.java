@@ -5,17 +5,18 @@ import javax.persistence.*;
 
 @Entity
 public class Person implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
     private Long id;
-    
+
     private String name;
     private String lastName;
-    
+
     @Column(length = 2500)
     private String aboutMe;
-    
+
     private String jobTitle;
     private String country;
     private String imageUrl;
@@ -91,15 +92,15 @@ public class Person implements Serializable {
 
     @Override
     public String toString() {
-        return "Person{" + 
-                "id=" + id + 
-                ", name=" + name + 
-                ", lastName=" + lastName + 
-                ", aboutMe=" + aboutMe + 
-                ", jobTitle=" + jobTitle + 
-                ", country=" + country + 
-                ", imageUrl=" + imageUrl + 
-                '}';
+        return "Person{"
+                + "id=" + id
+                + ", name=" + name
+                + ", lastName=" + lastName
+                + ", aboutMe=" + aboutMe
+                + ", jobTitle=" + jobTitle
+                + ", country=" + country
+                + ", imageUrl=" + imageUrl
+                + '}';
     }
-    
+
 }
