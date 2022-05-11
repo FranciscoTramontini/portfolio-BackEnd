@@ -20,6 +20,6 @@
   
   # Parte BackEnd y Database
   
-  Este repo contiene el SpringBoot (Java) que utiliza el Portfolio, tambien contiene el script y el DER de la base de datos utilizada.
+  Este repositorio contiene el SpringBoot (Java) que utiliza el Portfolio, tambien contiene el script y el DER de la base de datos utilizada.
   
   En la parte del Wiki se encuentra el UML de las clases utilizadas.
