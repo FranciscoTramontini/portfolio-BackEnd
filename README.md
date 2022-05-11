@@ -12,7 +12,7 @@
 
 # Detalles de la App
 
-  Una APP con arquitectura distribuida.
+  Una APP con arquitectura distribuida:
 
     * FrontEnd con Angular
   
@@ -27,9 +27,13 @@
     Este repositorio contiene el SpringBoot (Java) que utiliza el Portfolio y en la parte del Wiki se encuentra el UML de las clases utilizadas.
     
     Aca encontraras las funciones para editar, modficiar, buscar, borrar los elementos de la base de datos, ademas funciones para conectar el Back con el Front.
+    
+    Subimos a la web mediante Heroku.
   
   ## Parte Database
   
     Aca encontraras el script y el DER de la base de datos utilizada.
     
     La base de datos la utilizaremos para guardar nuestra informacion con ayuda del Back y Front.
+    
+    Subimos a la web mediante Clever Cloud
