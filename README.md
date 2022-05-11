@@ -36,4 +36,4 @@
     
     La base de datos la utilizaremos para guardar nuestra informacion con ayuda del Back y Front.
     
-    Subimos a la web mediante Clever Cloud
+    Subimos a la web mediante Clever Cloud.
