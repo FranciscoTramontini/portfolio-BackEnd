@@ -1,6 +1,6 @@
 # Portfolio Web
 
-  https://tramontini-francisco-portfolio.web.app/
+  Si queres ver el Portfolio Web ingresa aca: https://tramontini-francisco-portfolio.web.app/
   
   Si te interesa ver como editarlo, comunicate conmigo por email: frantramontini97@gmail.com
 
@@ -10,16 +10,26 @@
   
   Carta de presentación para el mercado laboral.
 
-# Una APP con arquitectura distribuida.
+# Detalles de la App
 
-  FrontEnd con Angular
+  Una APP con arquitectura distribuida.
+
+    * FrontEnd con Angular
   
-  BackEnd con SpringBoot
+    * BackEnd con SpringBoot
   
-  Database con MySQL 
+    * Database con MySQL 
   
-  # Parte BackEnd y Database
+# Contenido del repositorio
+
+  ## Parte BackEnd
   
-  Este repositorio contiene el SpringBoot (Java) que utiliza el Portfolio, tambien contiene el script y el DER de la base de datos utilizada.
+    Este repositorio contiene el SpringBoot (Java) que utiliza el Portfolio y en la parte del Wiki se encuentra el UML de las clases utilizadas.
+    
+    Aca encontraras las funciones para editar, modficiar, buscar, borrar los elementos de la base de datos, ademas funciones para conectar el Back con el Front.
   
-  En la parte del Wiki se encuentra el UML de las clases utilizadas.
+  ## Parte Database
+  
+    Aca encontraras el script y el DER de la base de datos utilizada.
+    
+    La base de datos la utilizaremos para guardar nuestra informacion con ayuda del Back y Front.
