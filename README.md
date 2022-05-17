@@ -1,6 +1,6 @@
 # Portfolio Web
 
-  Si queres ver el Portfolio Web ingresa aca: https://tramontini-francisco-portfolio.web.app/
+  Si querés ver el Portfolio Web ingresa aca: https://tramontini-francisco-portfolio.web.app/
   
   Si te interesa ver como editarlo, comunicate conmigo por email: frantramontini97@gmail.com
 
@@ -26,7 +26,8 @@
   
     Este repositorio contiene el SpringBoot (Java) que utiliza el Portfolio y en la parte del Wiki se encuentra el UML de las clases utilizadas.
     
-    Aca encontraras las funciones para editar, modficiar, buscar, borrar los elementos de la base de datos, ademas funciones para conectar el Back con el Front.
+    Aca encontraras las funciones para editar, agregar, buscar, borrar los elementos de la base de datos, ademas funciones para conectar el Back 
+    con el Front.
     
     Subimos a la web mediante Heroku.
   
@@ -34,6 +35,6 @@
   
     Aca encontraras el script y el DER de la base de datos utilizada.
     
-    La base de datos la utilizaremos para guardar nuestra informacion con ayuda del Back y Front.
+    La base de datos la utilizaremos para guardar nuestra información con ayuda del Back y Front.
     
     Subimos a la web mediante Clever Cloud.
