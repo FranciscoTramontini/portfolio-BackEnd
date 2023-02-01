@@ -29,7 +29,7 @@
     Aca encontraras las funciones para editar, agregar, buscar, borrar los elementos de la base de datos, ademas funciones para conectar el Back 
     con el Front.
     
-    Subimos a la web mediante Heroku.
+    Subimos a la web mediante Render.
   
   ## Parte Database
   
